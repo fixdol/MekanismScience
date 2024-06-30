@@ -1,0 +1,23 @@
+{
+  "gas.mekanismscience.ammonia": "アンモニア",
+  "fluid.mekanismscience.ammonia": "液体アンモニア",
+  "item.mekanismscience.ammonia_bucket": "液体アンモニア入りバケツ",
+  "gas.mekanismscience.americium": "アメリシウム",
+  "gas.mekanismscience.beryllium": "ベリリウム",
+  "fluid.mekanismscience.beryllium": "液体ベリリウム",
+  "item.mekanismscience.beryllium_bucket": "液体ベリリウム入りバケツ",
+  "gas.mekanismscience.californium": "カリホルニウム",
+  "gas.mekanismscience.curium": "キュリウム",
+  "gas.mekanismscience.helium": "ヘリウム",
+  "fluid.mekanismscience.helium": "液体ヘリウム",
+  "item.mekanismscience.helium_bucket": "液体ヘリウム入りバケツ",
+  "gas.mekanismscience.superheated_helium": "過熱したヘリウム",
+  "fluid.mekanismscience.superheated_helium": "液体過熱したヘリウム",
+  "item.mekanismscience.superheated_helium_bucket": "液体過熱したヘリウム入りバケツ",
+  "gas.mekanismscience.strontium": "ストロンチウム",
+  "fluid.mekanismscience.strontium": "液体ストロンチウム",
+  "item.mekanismscience.strontium_bucket": "液体ストロンチウム入りバケツ",
+  "gas.mekanismscience.yttrium": "イットリウム",
+  "fluid.mekanismscience.yttrium": "液体イットリウム",
+  "item.mekanismscience.yttrium_bucket": "液体イットリウム入りバケツ"
+}
