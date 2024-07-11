@@ -37,7 +37,7 @@ public class MekanismScience
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    static ResourceLocation rl(String path){
+    public static ResourceLocation rl(String path){
         return new ResourceLocation(MekanismScience.MODID,path);
     }
 

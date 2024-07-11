@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:activating",
+  "input": {
+    "gas": "mekanism:plutonium",
+    "amount": 1
+  },
+  "output": {
+    "gas": "mekanismscience:americium",
+    "amount": 1
+  }
+}

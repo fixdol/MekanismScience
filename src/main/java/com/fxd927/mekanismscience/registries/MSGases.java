@@ -34,10 +34,11 @@ public class MSGases {
     
     static {
         AMERICIUM = GASES.register("americium", 13983840, new GasAttributes.Radiation(0.05));
-        AMMONIA = GASES.register(MSChemicalConstants.AMMONIA, new GasAttributes.Fuel(1, FloatingLong.create(1000)));
+        AMMONIA = GASES.register(MSChemicalConstants.AMMONIA, new GasAttributes.Fuel(10, FloatingLong.create(100000)));
         BERYLLIUM = GASES.register(MSChemicalConstants.BERYLLIUM);
         CALIFORNIUM = GASES.register("californium",0xFFF08B00, new GasAttributes.Radiation(1.00));
         CURIUM = GASES.register("curium",15725501, new GasAttributes.Radiation(0.07));
+
         //削除予定
         DECAYED_NUCLEAR_WASTE = GASES.register("decayed_nuclear_waste", 2498581, new ChemicalAttribute[0]);
         DECAYED_AMERICIUM = GASES.register("decayed_americium", 13983840, new ChemicalAttribute[0]);
