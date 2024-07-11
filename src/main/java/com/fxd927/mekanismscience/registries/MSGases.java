@@ -16,6 +16,7 @@ public class MSGases {
     public static final GasRegistryObject<Gas> AMMONIA;
     public static final GasRegistryObject<Gas> BERYLLIUM;
     public static final GasRegistryObject<Gas> CALIFORNIUM;
+    public static final GasRegistryObject<Gas> COMPRESSED_AIR;
     public static final GasRegistryObject<Gas> CURIUM;
 
     //削除予定
@@ -37,6 +38,7 @@ public class MSGases {
         AMMONIA = GASES.register(MSChemicalConstants.AMMONIA, new GasAttributes.Fuel(1, FloatingLong.create(100000)));
         BERYLLIUM = GASES.register(MSChemicalConstants.BERYLLIUM);
         CALIFORNIUM = GASES.register("californium",0xFFF08B00, new GasAttributes.Radiation(1.00));
+        COMPRESSED_AIR = GASES.register(MSChemicalConstants.COMPRESSED_AIR);
         CURIUM = GASES.register("curium",15725501, new GasAttributes.Radiation(0.07));
 
         //削除予定
