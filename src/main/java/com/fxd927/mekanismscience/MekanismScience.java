@@ -29,9 +29,9 @@ public class MekanismScience
     public MekanismScience()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        MSCreativeTab.CREATIVE_TABS.register(modEventBus);
         MSFluids.FLUIDS.register(modEventBus);
         MSGases.GASES.register(modEventBus);
-        MSCreativeTab.CREATIVE_TABS.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
