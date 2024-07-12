@@ -35,7 +35,7 @@ public class MSGases {
     
     static {
         AMERICIUM = GASES.register("americium", 13983840, new GasAttributes.Radiation(0.05));
-        AMMONIA = GASES.register(MSChemicalConstants.AMMONIA, new GasAttributes.Fuel(1, FloatingLong.create(100000)));
+        AMMONIA = GASES.register(MSChemicalConstants.AMMONIA, new GasAttributes.Fuel(10, FloatingLong.create(100000)));
         BERYLLIUM = GASES.register(MSChemicalConstants.BERYLLIUM);
         CALIFORNIUM = GASES.register("californium",0xFFF08B00, new GasAttributes.Radiation(1.00));
         COMPRESSED_AIR = GASES.register(MSChemicalConstants.COMPRESSED_AIR);
