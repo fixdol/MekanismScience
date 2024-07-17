@@ -1,8 +1,6 @@
 package com.fxd927.mekanismscience;
 
-import com.fxd927.mekanismscience.registries.MSCreativeTab;
-import com.fxd927.mekanismscience.registries.MSFluids;
-import com.fxd927.mekanismscience.registries.MSGases;
+import com.fxd927.mekanismscience.registries.*;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
@@ -32,6 +30,8 @@ public class MekanismScience
         MSCreativeTab.CREATIVE_TABS.register(modEventBus);
         MSFluids.FLUIDS.register(modEventBus);
         MSGases.GASES.register(modEventBus);
+        MSItems.ITEMS.register(modEventBus);
+        MSBlocks.BLOCKS.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
