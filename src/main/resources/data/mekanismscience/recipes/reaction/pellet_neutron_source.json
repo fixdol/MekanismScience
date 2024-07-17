@@ -1,0 +1,20 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 100,
+  "fluidInput": {
+    "amount": 1000,
+    "fluid": "mekanismscience:beryllium"
+  },
+  "gasInput": {
+    "amount": 1000,
+    "gas": "mekanismscience:americium"
+  },
+  "itemInput": {
+    "ingredient": {
+      "item": "mekanism:dust_steel"
+    }
+  },
+  "itemOutput": {
+    "item": "mekanismscience:pellet_neutron_source"
+  }
+}
