@@ -16,6 +16,7 @@ public class MSCreativeTab {
                       .withSearchBar(70)
                       .withTabsBefore(MekanismCreativeTabs.MEKANISM.key())
                       .displayItems((displayParameters, output) -> {
+                          CreativeTabDeferredRegister.addToDisplay(MSItems.ITEMS, output);
                         CreativeTabDeferredRegister.addToDisplay(MSFluids.FLUIDS, output);
                     })
     );
